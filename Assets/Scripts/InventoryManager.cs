@@ -35,12 +35,12 @@ public class InventoryManager : MonoBehaviour
         consumablesButton.onClick.AddListener(() => FilterInventory(ItemCategory.Consumable));
         equippablesButton.onClick.AddListener(() => FilterInventory(ItemCategory.Equippable));
 
-        AddItem(new Apple(),3);
-        AddItem(new Sword(), 1);
+        AddItem(new Resin(),3);
+        AddItem(new Weapon(), 1);
         AddItem(new Bow(), 1);
-        AddItem(new HealthScroll(), 3);
-        AddItem(new ManaScroll(), 6);
-        AddItem(new Cheese(), 7);
+        AddItem(new Moss(), 3);
+        AddItem(new Soul(), 2);
+        AddItem(new Skull(), 7);
     }
 
     // Update is called once per frame

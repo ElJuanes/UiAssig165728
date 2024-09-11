@@ -17,6 +17,6 @@ public class Bow : Items
 
     public override Sprite GiveItemImage()
     {
-        return Resources.Load<Sprite>("Item Icons/BowIcon");
+        return Resources.Load<Sprite>("IconosInv/Bow");
     }
 }

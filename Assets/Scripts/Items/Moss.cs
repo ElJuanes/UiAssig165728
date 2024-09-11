@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sword : Items
+public class Moss : Items
 {
-    public Sword() : base(ItemCategory.Equippable) { }
+    public Moss() : base(ItemCategory.Consumable) { }
     public override string GiveName()
     {
-        return "Sword";
+        return "Moss";
     }
 
     public override int MaxStacks()
     {
-        return 1;
+        return 10;
     }
 
     public override Sprite GiveItemImage()
     {
-        return Resources.Load<Sprite>("Item Icons/SwordIcon");
+        return Resources.Load<Sprite>("IconosInv/Moss");
     }
 }

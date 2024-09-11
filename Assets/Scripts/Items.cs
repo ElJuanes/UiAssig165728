@@ -23,7 +23,7 @@ public abstract class Items
 
     public virtual Sprite GiveItemImage()
     {
-        return Resources.Load<Sprite>("Item Icons/NoItem");
+        return Resources.Load<Sprite>("IconosInv/Error");
     }
     public ItemCategory GetCategory()
     {

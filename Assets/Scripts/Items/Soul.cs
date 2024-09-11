@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ManaScroll : Items
+public class Soul : Items
 {
-    public ManaScroll() : base(ItemCategory.Consumable){}
+    public Soul() : base(ItemCategory.Consumable){}
     
     public override string GiveName()
     {
-        return "ManaScroll";
+        return "Soul";
     }
 
     public override int MaxStacks()
@@ -18,6 +18,6 @@ public class ManaScroll : Items
 
     public override Sprite GiveItemImage()
     {
-        return Resources.Load<Sprite>("Item Icons/ManaScrollItem");
+        return Resources.Load<Sprite>("IconosInv/Soul");
     }
 }

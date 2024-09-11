@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HealthScroll : Items
+public class Resin : Items
 {
-    public HealthScroll() : base(ItemCategory.Consumable) { }
+    public Resin() : base(ItemCategory.Consumable) { }
     public override string GiveName()
     {
-        return "HealthScroll";
+        return "Resin";
     }
 
     public override int MaxStacks()
     {
-        return 10;
+        return 5;
     }
 
     public override Sprite GiveItemImage()
     {
-        return Resources.Load<Sprite>("Item Icons/HealthScrollItem");
+        return Resources.Load<Sprite>("IconosInv/Resin");
     }
 }
